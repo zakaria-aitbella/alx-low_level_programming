@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Print all the letters except q and e followed by a new line.
+ * main - Print all the letters except q and e followed by a new line.
  *
  * Return: 0 (Success)
 */
