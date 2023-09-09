@@ -16,8 +16,6 @@ while (lowercase <= 'z')
 putchar(lowercase);
 lowercase++;
 }
-putchar('\n');
-
 while (uppercase <= 'Z'){
     putchar(uppercase);
     uppercase++;
