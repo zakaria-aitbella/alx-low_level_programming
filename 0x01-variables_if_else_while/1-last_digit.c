@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - assign a random number to the variable n.
  *
  * Return: 0 (Success)
 */
@@ -28,3 +29,4 @@ printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 }
 return (0);
 }
+
