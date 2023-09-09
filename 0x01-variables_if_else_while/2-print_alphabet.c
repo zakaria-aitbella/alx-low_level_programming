@@ -14,7 +14,7 @@ while (lowercase <= 'z')
 {
 putchar(lowercase);
 }
-putchar(\n);
+putchar('\n');
 return (0);
 }
 
