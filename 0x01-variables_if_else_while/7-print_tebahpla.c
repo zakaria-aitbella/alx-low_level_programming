@@ -10,12 +10,13 @@
 */
 int main(void)
 {
-char num = 'z';
-while (num >= 'a')
+char lowercase = 'z';
+while (lowercase >= 'a')
 {
-putchar(num);
-num--;
+putchar(lowercase);
+lowercase--;
 }
 putchar('\n');
 return (0);
 }
+
