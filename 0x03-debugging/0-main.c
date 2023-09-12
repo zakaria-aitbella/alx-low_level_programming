@@ -1,10 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-/**
-* main - prints even numbers from 0 to 100
-* Return: 0
-*/
+#include "main.h"
 
 /**
 * main - tests function that prints if integer is positive or negative
@@ -15,13 +9,8 @@ int main(void)
 {
         int i;
 
-        i = 98;
-        if (i < 0){
-            printf("%d is negative", i);
-        }else {
-        printf("%d is positive", i);
-        }
+        i = 0;
+        positive_or_negative(i);
 
         return (0);
 }
-
