@@ -13,8 +13,12 @@
 void print_remaining_days(int month, int day, int year)
 {
 /**
+ * description - converts a date to the day
+ * of year and determines how many days are left in the year,
+ * taking leap year into consideration.
  * leap year when it can be divided
  * by 100 and 400 or by 4 evenly
+ * always return 0.
 */
 if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
 {
