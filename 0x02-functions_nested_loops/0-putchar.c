@@ -9,12 +9,10 @@
  */
 int main(void) /* return 0 */
 {
-
-int main() {
 char str[] = "_putchar";
 int ch;
 for (ch = 0; ch < 8; ch++)
 putchar(str[str]);
 _putchar('\n'); /* Newline character */
-return 0;
+return (0);
 }
