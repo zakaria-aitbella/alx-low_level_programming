@@ -12,7 +12,7 @@ int main(void) /* return 0 */
 char str[] = "_putchar";
 int ch;
 for (ch = 0; ch < 8; ch++)
-putchar(str[str]);
+putchar(str[ch]);
 _putchar('\n'); /* Newline character */
 return (0);
 }
