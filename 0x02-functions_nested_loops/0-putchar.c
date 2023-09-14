@@ -14,7 +14,7 @@ int ch;
 
 for (ch = 0; ch < 8; ch++)
 putchar(str[ch]);
-_putchar('\n'); /* Newline character */
+putchar('\n'); /* Newline character */
 
 return (0);
 }
