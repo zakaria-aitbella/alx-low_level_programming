@@ -12,15 +12,7 @@
 
 void print_remaining_days(int month, int day, int year)
 {
-/**
- * description - converts a date to the day
- * of year and determines how many days are left in the year,
- * taking leap year into consideration.
- * leap year when it can be divided
- * by 100 and 400 or by 4 evenly
- * always return 0
-*/
-if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
+if ((year % 100 == 0 && (year % 400 == 0) || !(year % 4 == 0))
 {
 if (month >= 2 && day >= 60)
 {
@@ -39,7 +31,8 @@ printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
 else
 {
 printf("Day of the year: %d\n", day);
-printf("Remaining days: %d\n", 365 - day)
+printf("Remaining days: %d\n", 365 - day);
+}
+}
 }
 
-}
