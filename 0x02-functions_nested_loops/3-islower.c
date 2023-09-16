@@ -9,7 +9,7 @@
  */
 int _islower(int c)
 {
-int c;
+char c;
 scanf("%c", &c);
 if (islower(c))
 {
