@@ -9,8 +9,7 @@
  */
 int _islower(int c)
 {
-scanf("%c", c);
-if (islower(c))
+if (c<='a')
 {
 putchar('0');
 }
