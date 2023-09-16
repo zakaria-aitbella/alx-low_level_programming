@@ -9,9 +9,8 @@
  */
 int _islower(int c)
 {
-char ch;
-scanf("%c", &ch);
-if (islower(ch))
+scanf("%c", c);
+if (islower(c))
 {
 putchar('0');
 }
