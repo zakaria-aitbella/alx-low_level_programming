@@ -6,8 +6,8 @@
  */
 void print_alphabet(void)
 {
-int ch;
-for (i = 0; i < 10; i++) /* Loop 10 times */
+int ch, line;
+for (line = 0; line < 10; line++) /* Loop 10 times */
 {
 for (ch = 'a'; ch <= 'z'; ch++)
 {
