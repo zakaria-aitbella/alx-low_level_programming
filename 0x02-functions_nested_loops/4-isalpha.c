@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _islower - checks if a character is lowercase
+ *  _isalpha- checks if a character is lowercase
  * @c: The character to check
  *
  * Return: ,1 if c is a letter, lowercase or uppercase 0 otherwise
