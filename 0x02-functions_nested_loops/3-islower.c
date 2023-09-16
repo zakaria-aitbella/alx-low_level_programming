@@ -9,14 +9,10 @@
  */
 int _islower(int c)
 {
-if (>='a' && c<=)
+if (>=97 && c<=122)
 {
-putchar('0');
-}
-else
-{
-putchar('1');
-}
+return (0);
+else {
 return (0);
 }
 
