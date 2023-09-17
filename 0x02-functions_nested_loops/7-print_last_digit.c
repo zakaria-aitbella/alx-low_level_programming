@@ -9,6 +9,14 @@
 */
 int print_last_digit(int lastDigit, int n)
 {
-	lastDigit = n % 10;
-	return (lastDigit);
+	int lastDigit;
+	if (n < 0)
+	{
+		lastDigit = (n * (-1)) % 10;
+	}
+else
+{
+lastDigit = n % 10;
+}
+return (lastDigit);
 }
