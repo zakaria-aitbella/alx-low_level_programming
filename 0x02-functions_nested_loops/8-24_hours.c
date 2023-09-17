@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * Jack Bauer, starting from 00:00 to 23:59.
+ * Jack_bauer, starting from 00:00 to 23:59.
 */
 void jack_bauer(void)
 {
-int hr, min;
+	int hr, min;
 
 for (hr = 0; hr <= 23; hr++)
 	{
@@ -16,7 +16,7 @@ _putchar((hr / 10) + 48);
 _putchar((hr % 10) + 48);
 _putchar(':');
 _putchar((min / 10) + 48);
-_putchar((min / 10) + 48);
+_putchar((min % 10) + 48);
 _putchar('\n');
 		}
 	}
