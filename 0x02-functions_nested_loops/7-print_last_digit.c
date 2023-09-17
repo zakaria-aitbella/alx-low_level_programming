@@ -7,7 +7,7 @@
  * @lastDigit the output integer
  * Return:the value of the lastDigit
 */
-int print_last_digit(int lastDigit, int n)
+int print_last_digit(int n)
 {
 	int lastDigit;
 	if (n < 0)
