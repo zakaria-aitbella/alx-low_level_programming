@@ -18,5 +18,6 @@ else
 {
 lastDigit = n % 10;
 }
+_putchar(lastDigit + '0');
 return (lastDigit);
 }
