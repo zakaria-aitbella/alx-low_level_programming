@@ -5,10 +5,12 @@
  * @a: the inter to swap.
  * @b: the inter to swap.
 */
-
 void swap_int(int *a, int *b)
 {
-*a = *b;
-*b = *a;
+	if (*a != NULL && *b != NULL)
+	{
+		int temp = *a;
+		*a = *b;
+	*b = temp;
+	}
 }
-
