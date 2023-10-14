@@ -43,5 +43,5 @@ if ((start == end && mod != 0) || (start == end + 1 && mod == 0))
 else if (s[start] != s[end])
 	return (0);
 else
-	return (check(s, start + 1, end -1, mod));
+	return (check(s, start + 1, end - 1, mod));
 }
