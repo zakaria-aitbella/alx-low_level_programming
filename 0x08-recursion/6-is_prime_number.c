@@ -16,5 +16,5 @@ else if (n / n > 0 || n / n < 0)
 {
 return (0);
 }
-return (n);
+return (0);
 }
