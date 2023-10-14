@@ -12,9 +12,10 @@ return (check_prime(n, 2));
 }
 
 /**
- * is_prime_number - returns 1 if the input integer is a prime number,
+ * check_prime- check all number < n if they can divide it
  * otherwise return 0.
  * @n: int
+ * @othrn: int
  * Return: int
 */
 
